@@ -1,0 +1,27 @@
+# build output
+/dispatch
+/bin/
+
+# runtime data (uploads + sqlite)
+/data/
+*.db
+*.db-*
+
+# env files
+.env
+.env.*
+
+# IDE / editor scaffolds
+.claude/
+.cursor/
+.codex/
+.agents/
+AGENTS.md
+
+# trellis: exclude transient dirs & generated caches only
+.trellis/.runtime/
+.trellis/workspace/
+
+# editor / OS
+.DS_Store
+*.swp
